@@ -8,6 +8,6 @@ User Functions In App:
 - List of tourist places and information, location of that places
 - Clothing Shops and it's website and location
 - Movie theaters and bookmovies in them and location
-- Fedback
+- Feedback
 - Sign out from the application.
 
