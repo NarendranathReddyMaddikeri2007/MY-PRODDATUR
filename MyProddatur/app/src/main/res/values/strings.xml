@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MY PRODDATUR</string>
+    <string name="user_info">User Info</string>
+    <string name="feedback">Feedback</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="admob_ad_Id">ca-app-pub-9565330992545160~2413884732</string>
+    <string name="Banner_ad_Unit_Id">ca-app-pub-9565330992545160/5722574351</string>
+    <string name="Interstial_ad_Unit_Id">ca-app-pub-9565330992545160/5551183964</string>
+</resources>
