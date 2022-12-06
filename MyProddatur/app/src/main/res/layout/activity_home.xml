@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_color5"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_home_row1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="91dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/purple_200"
+        android:elevation="15dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/ll_home_row2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageButton
+            android:id="@+id/ib_home_info"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/home_items_style"
+            android:elevation="10dp"
+            android:outlineAmbientShadowColor="#c6bcca"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/about"
+            tools:ignore="MissingConstraints" />
+
+        <ImageButton
+            android:id="@+id/ib_home_food"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/home_items_style"
+            android:elevation="10dp"
+            android:outlineAmbientShadowColor="#c6bcca"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/food_courts_image" />
+
+        <ImageButton
+            android:id="@+id/ib_home_tourism"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/home_items_style"
+            android:elevation="10dp"
+            android:outlineAmbientShadowColor="#c6bcca"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/tourism" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_home_row2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:elevation="15dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageButton
+            android:id="@+id/ib_home_cloths"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/home_items_style"
+            android:elevation="10dp"
+            android:outlineAmbientShadowColor="#c6bcca"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/cloth_shopping" />
+
+        <ImageButton
+            android:id="@+id/ib_home_dasara_celebrations"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/home_items_style"
+            android:elevation="10dp"
+            android:outlineAmbientShadowColor="#c6bcca"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/fireworks"
+            tools:ignore="MissingConstraints" />
+
+        <ImageButton
+            android:id="@+id/ib_home_movies"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/home_items_style"
+            android:elevation="10dp"
+            android:outlineAmbientShadowColor="#c6bcca"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/theaters_image" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_home_row3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="26dp"
+        android:background="@color/purple_200"
+        android:elevation="15dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/adView1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ll_home_row2"
+        tools:ignore="MissingConstraints">
+
+        <ImageButton
+            android:id="@+id/ib_home_transport"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/home_items_style"
+            android:elevation="10dp"
+            android:outlineAmbientShadowColor="#c6bcca"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/vehicles_transport" />
+
+        <ImageButton
+            android:id="@+id/ib_home_gold"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/home_items_style"
+            android:elevation="10dp"
+            android:outlineAmbientShadowColor="#c6bcca"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/gold_shop" />
+
+        <ImageButton
+            android:id="@+id/ib_home_institutions"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/home_items_style"
+            android:elevation="10dp"
+            android:outlineAmbientShadowColor="#c6bcca"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/classroom" />
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-9565330992545160/5722574351"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_color5"
+    tools:context=".Activity_Transport">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_trains_transport"
+        android:layout_width="350dp"
+        android:layout_height="180dp"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_title_transport_trains"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/corner_curve_style_about_title"
+        android:paddingTop="10dp"
+        android:text="RAILWAY STATIONS"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/rv_trains_transport"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_title_transport_buses"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/corner_curve_style_about_title"
+        android:paddingTop="10dp"
+        android:text="BUS TRANSPORT"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/rv_buses_transport"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_buses_transport"
+        android:layout_width="350dp"
+        android:layout_height="320dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_title_transport_trains"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
